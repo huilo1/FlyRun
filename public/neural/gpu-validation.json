@@ -1,0 +1,26 @@
+{
+  "backend": "WebGPU",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+  "adapter": {
+    "vendor": "apple",
+    "architecture": "metal-3",
+    "description": ""
+  },
+  "loop": {
+    "seconds": 31.870000000002182,
+    "distanceMm": 275.57832423342046,
+    "firstContact": 1.350000000000001,
+    "maxContact": 3.3899999999999717,
+    "recovered": true,
+    "escaped": true
+  },
+  "liveAblationPassed": true,
+  "coldAblationPassed": true,
+  "directMotorInputs": 0,
+  "workerPath": "/_next/static/worker-BuCMz7fA.js",
+  "workerSha256": "5d8410ad884b89f0242769d4cda6c7e231e4b48ddc82cf872f80295aa51cc35d",
+  "sourceSha256": {
+    "lib/world.mjs": "ee2c67de465bebddcf179ef64a74f74922230cf2f75cc53d5da3a51a48ab66ec",
+    "scripts/gpu-smoke.mjs": "23eac4291340322ccbcdfa62a8303a4aa6053c1a9a8a306be982e2c935feb5d4"
+  }
+}

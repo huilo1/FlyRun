@@ -1,0 +1,280 @@
+{
+  "schema": 1,
+  "backend": "CPU reference; WebGPU execution not measured",
+  "graph": {
+    "neurons": 166700,
+    "edges": 25582938
+  },
+  "stimulusReadoutOverlap": 0,
+  "inputCounts": {
+    "visualLeft": 104,
+    "visualRight": 115,
+    "dangerLeft": 71,
+    "dangerRight": 55,
+    "targetLeft": 135,
+    "targetRight": 140,
+    "loomLeft": 88,
+    "loomRight": 94
+  },
+  "sourceSha256": {
+    "lib/sensor-encoder.mjs": "2236ffa303684d938a182495a36aca177e8fea825119011e5a062a1c045e5cd5",
+    "lib/world.mjs": "ee2c67de465bebddcf179ef64a74f74922230cf2f75cc53d5da3a51a48ab66ec",
+    "lib/neural/brain.js": "2dc6fdd9407c9dfb52eb8536a1192d3a320951dfa4e7777807c8657c4f4bf9c2",
+    "lib/neural/stimulus.js": "f8fd76fa135e11bbbcd751b3b05653ce27efc281c7f3d20443c1e2c2e720137c"
+  },
+  "limits": [
+    "Synthetic visual features and artificial LC9 background; no validated retinal model.",
+    "Deterministic tests establish causal dependence and recovery in the reported room, not animal-like behavior or general maze solving.",
+    "LC16 response is weak in this model; reliable retreat is not established."
+  ],
+  "results": [
+    {
+      "name": "LC9 background 180 Hz, no environment",
+      "seconds": 2.99999999999998,
+      "requestedSeconds": 3,
+      "neuralSeed": 1,
+      "distanceMm": 41.324354330359746,
+      "signedTurnRadians": 0.17991096103728388,
+      "finalSpeedMmS": 15.328122815268586,
+      "finalCommandSpeedMmS": 15.328122815268353,
+      "collisions": 0,
+      "firstContactSeconds": null,
+      "maxContactSeconds": 0,
+      "escaped": false,
+      "meanMotorHz": [
+        24.99999905904134,
+        40.11110960642497,
+        7.555555280049642,
+        8.111110801696777,
+        0.4166666666666667,
+        0.6666666666666666
+      ],
+      "lastHalfSecondMotorHz": [
+        27.333332290649427,
+        39.999998474121114,
+        9.333332977294921,
+        7.999999694824218,
+        0,
+        0
+      ],
+      "totalSpikes": 2709377
+    },
+    {
+      "name": "Visible target left",
+      "seconds": 1.0000000000000007,
+      "requestedSeconds": 1,
+      "neuralSeed": 1,
+      "distanceMm": 15.596170309348455,
+      "signedTurnRadians": -3.932505207945778,
+      "finalSpeedMmS": 17.32545887612904,
+      "finalCommandSpeedMmS": 17.325458876128984,
+      "collisions": 0,
+      "firstContactSeconds": null,
+      "maxContactSeconds": 0,
+      "escaped": false,
+      "meanMotorHz": [
+        37.99999885559082,
+        47.999998512268064,
+        67.9999984741211,
+        8.999999656677247,
+        0.5,
+        1
+      ],
+      "lastHalfSecondMotorHz": [
+        42.66666557312013,
+        52.666665115356466,
+        68.66666511535647,
+        11.33333290100098,
+        0,
+        0
+      ],
+      "totalSpikes": 257599
+    },
+    {
+      "name": "Visible target right",
+      "seconds": 1.0000000000000007,
+      "requestedSeconds": 1,
+      "neuralSeed": 1,
+      "distanceMm": 16.894779472920447,
+      "signedTurnRadians": 4.303182675027346,
+      "finalSpeedMmS": 18.35019046348947,
+      "finalCommandSpeedMmS": 18.350190463489472,
+      "collisions": 0,
+      "firstContactSeconds": null,
+      "maxContactSeconds": 0,
+      "escaped": false,
+      "meanMotorHz": [
+        46.999998588562015,
+        52.33333179473877,
+        0,
+        74.66666534423828,
+        0.25,
+        1.5
+      ],
+      "lastHalfSecondMotorHz": [
+        45.999998474121114,
+        53.99999847412112,
+        0,
+        70.6666654968262,
+        0,
+        0
+      ],
+      "totalSpikes": 263400
+    },
+    {
+      "name": "Close objects both sides; LC16 response is not guaranteed to cause retreat",
+      "seconds": 1.0000000000000007,
+      "requestedSeconds": 1,
+      "neuralSeed": 1,
+      "distanceMm": 14.366951786626652,
+      "signedTurnRadians": -0.5269438858676578,
+      "finalSpeedMmS": 15.4769019192182,
+      "finalCommandSpeedMmS": 15.476901919218218,
+      "collisions": 0,
+      "firstContactSeconds": null,
+      "maxContactSeconds": 0,
+      "escaped": false,
+      "meanMotorHz": [
+        31.99999881744385,
+        40.99999847412109,
+        5.999999771118164,
+        0.6666666412353516,
+        1.5,
+        0.5
+      ],
+      "lastHalfSecondMotorHz": [
+        29.999998855590835,
+        41.33333175659182,
+        7.333333053588866,
+        0.6666666412353516,
+        0,
+        0
+      ],
+      "totalSpikes": 259112
+    },
+    {
+      "name": "Same left target, connections off from reset",
+      "seconds": 1.0000000000000007,
+      "requestedSeconds": 1,
+      "neuralSeed": 1,
+      "distanceMm": 0,
+      "signedTurnRadians": 0,
+      "finalSpeedMmS": 0,
+      "finalCommandSpeedMmS": 0,
+      "collisions": 0,
+      "firstContactSeconds": null,
+      "maxContactSeconds": 0,
+      "escaped": false,
+      "meanMotorHz": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lastHalfSecondMotorHz": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "totalSpikes": 62646
+    },
+    {
+      "name": "Connections cut after 1 second, without resetting brain",
+      "seconds": 2.0000000000000013,
+      "requestedSeconds": 2,
+      "neuralSeed": 1,
+      "distanceMm": 14.684198822071803,
+      "signedTurnRadians": -0.1753229264428418,
+      "finalSpeedMmS": 0,
+      "finalCommandSpeedMmS": 0,
+      "collisions": 0,
+      "firstContactSeconds": null,
+      "maxContactSeconds": 0,
+      "escaped": false,
+      "meanMotorHz": [
+        13.833332824707032,
+        20.999999237060546,
+        3.833333206176758,
+        2.999999885559082,
+        0.625,
+        1
+      ],
+      "lastHalfSecondMotorHz": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "totalSpikes": 844605
+    },
+    {
+      "name": "Closed loop FLY-042 through obstacle contacts, GPU-compatible neural seed",
+      "seconds": 20.72000000000044,
+      "requestedSeconds": 50,
+      "neuralSeed": 1,
+      "distanceMm": 203.41026554988707,
+      "signedTurnRadians": -12.404576691538791,
+      "finalSpeedMmS": 16.033146339626114,
+      "finalCommandSpeedMmS": 16.03314633962524,
+      "collisions": 6,
+      "firstContactSeconds": 1.1000000000000008,
+      "maxContactSeconds": 3.6699999999999657,
+      "escaped": true,
+      "meanMotorHz": [
+        28.426639858820263,
+        39.73616322771463,
+        8.703345884227385,
+        3.1370655413299913,
+        0.37403474903474904,
+        18.098455598455597
+      ],
+      "lastHalfSecondMotorHz": [
+        27.333332290649427,
+        38.66666519165041,
+        29.99999900817872,
+        31.3333325958252,
+        0,
+        0
+      ],
+      "totalSpikes": 4692735
+    },
+    {
+      "name": "Closed loop FLY-241377, CPU room seed",
+      "seconds": 2.99999999999998,
+      "requestedSeconds": 3,
+      "neuralSeed": 3181479077,
+      "distanceMm": 17.03871846284358,
+      "signedTurnRadians": -1.663046039442207,
+      "finalSpeedMmS": 14.513702712764243,
+      "finalCommandSpeedMmS": 14.513702712764356,
+      "collisions": 3,
+      "firstContactSeconds": 0.7900000000000005,
+      "maxContactSeconds": 1.470000000000001,
+      "escaped": false,
+      "meanMotorHz": [
+        30.333332239786785,
+        39.88888739267985,
+        6.666666425069173,
+        1.1111110687255858,
+        1.1666666666666667,
+        53.333333333333336
+      ],
+      "lastHalfSecondMotorHz": [
+        27.999998931884782,
+        38.66666519165041,
+        9.999999618530275,
+        0,
+        0,
+        0
+      ],
+      "totalSpikes": 680127
+    }
+  ]
+}
