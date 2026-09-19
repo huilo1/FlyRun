@@ -1,6 +1,6 @@
 # Contributing to FlyRun
 
-Issues and pull requests are welcome in English or Russian. Start with the [README](README.md) or [русское описание](README.ru.md), then run the project locally.
+Issues and pull requests are welcome in English or Russian. Start with the [English README](README.en.md) or [русское описание](README.md), then run the project locally.
 
 ## Reporting an experiment
 
